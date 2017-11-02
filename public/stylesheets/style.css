@@ -1,0 +1,73 @@
+body {
+    background-image: url(http://www.pacificfortunes.com/wp-content/uploads/2016/03/white-background-images-for-website-white-wallpapers-hd-2014-onlybackground-image.jpg);
+}
+
+#bodyHolder {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#uiHolder {
+    width: 100%;
+}
+
+#trumpArt {
+    vertical-align: middle;
+    display: table-cell;
+    float: right;
+}
+
+#header {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Courier 10 Pitch";
+    width: 70%;
+    vertical-align: middle;
+    display: table-cell;
+    color: #FF8800;
+}
+
+.block {
+    padding-top: 5%;
+    display: table;
+}
+
+.header-button {
+    float: right;
+    margin: 5px;
+}
+
+.list-group {
+    margin-bottom: 1%;
+}
+
+.list-group-item {
+    font-weight: bolder;
+    background-color: darkgray;
+}
+
+.card-margin {
+    margin-bottom: 20px;
+}
+
+#inputs input{
+    margin:5px;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
