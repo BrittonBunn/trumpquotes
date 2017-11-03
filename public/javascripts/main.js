@@ -75,6 +75,7 @@ angular.module('app', ['ui.router'])
                     method: "GET"
                 }).then(function(res){
                     if (!res.data.length){
+                        $scope.quotes = [];
                         $scope.quotes.push("No Results Found")
                     } else {
                         $scope.quotes = res.data;
